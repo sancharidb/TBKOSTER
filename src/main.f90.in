@@ -42,6 +42,7 @@ program main
   use string_mod, only: TBKOSTER_flush, int2str
   implicit none
 
+
   type(calculation) :: calculation_obj
   character(len=*),parameter :: master_file = 'in_master.txt'
   logical :: master_file_existence
